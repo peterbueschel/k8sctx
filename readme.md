@@ -3,7 +3,7 @@
 **Change your kube context via `ktx` command.**
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/peterbueschel/k8sctx)](https://goreportcard.com/report/github.com/peterbueschel/k8sctx)
-[![Coverage Status](https://coveralls.io/repos/github/peterbueschel/k8sctx/badge.svg?branch=master)](https://coveralls.io/github/peterbueschel/k8sctx?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/peterbueschel/k8sctx/badge.svg?branch=main)](https://coveralls.io/github/peterbueschel/k8sctx?branch=main)
 [![Go Reference](https://pkg.go.dev/badge/github.com/peterbueschel/k8sctx.svg)](https://pkg.go.dev/github.com/peterbueschel/k8sctx)
 
 
