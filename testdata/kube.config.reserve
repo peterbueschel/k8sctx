@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Config
+preferences: {}
+contexts:
+    - name: aws:dev:accountId:eu-central-1:cluster1
+      context:
+        cluster: aws:dev:accountId:eu-central-1:cluster1
+        user: aws:dev:accountId:eu-central-1:cluster1
+    - name: aws:prod:accountId:us-east-1:cluster1
+      context:
+        cluster: aws:prod:accountId:us-east-1:cluster1
+        user: aws:prod:accountId:us-east-1:cluster1
+        namespace: monitoring
+current-context: aws:prod:accountId:us-east-1:cluster1
+clusters:
+    - name: aws:dev:accountId:eu-central-1:cluster1
+      cluster:
+        certificate-authority-data: 1234
+        server: http://localhost
+    - name: aws:prod:accountId:us-east-1:cluster1
+      cluster:
+        certificate-authority-data: abcd
+        server: http://localhost
+users:
+    - name: aws:dev:accountId:eu-central-1:cluster1
+      user: {}
+    - name: aws:prod:accountId:us-east-1:cluster1
+      user: {}

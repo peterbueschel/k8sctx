@@ -1,0 +1,8 @@
+- alias: avap:1
+  cluster: cluster1
+  environment: prod
+  name: aws:prod:accountId:us-east-1:cluster1
+  namespace: monitoring
+  region: us-east-1
+- kubeconfig: testdata/kube.config
+  name: aws:dev:accountId:eu-central-1:cluster1

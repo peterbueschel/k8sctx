@@ -1,0 +1,4 @@
+- kubeconfig: testdata/kube.config
+  name: aws:dev:accountId:eu-central-1:cluster1
+- kubeconfig: testdata/kube.config
+  name: aws:prod:accountId:us-east-1:cluster1
